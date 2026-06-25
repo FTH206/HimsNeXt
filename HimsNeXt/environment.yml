@@ -1,0 +1,25 @@
+name: himsnext
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch=1.13.0
+  - torchvision
+  - pytorch-cuda=11.7
+  - numpy=1.23.0
+  - pandas=1.5.3
+  - scipy
+  - pillow
+  - matplotlib
+  - opencv
+  - einops
+  - pip:
+      - imgaug
+      - timm==0.6.12
+      - self-attention-cv
+      - --find-links=https://download.openmmlab.com/mmcv/dist/cu117/torch1.13/index.html
+      - mmcv-full==1.7.0
