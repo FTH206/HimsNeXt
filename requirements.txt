@@ -1,0 +1,15 @@
+--find-links=https://download.openmmlab.com/mmcv/dist/cu117/torch1.13/index.html
+
+torch==1.13.0
+torchvision
+numpy==1.23.0
+pandas==1.5.3
+scipy
+Pillow
+matplotlib
+opencv-python
+einops
+imgaug
+timm==0.6.12
+self-attention-cv
+mmcv-full==1.7.0
